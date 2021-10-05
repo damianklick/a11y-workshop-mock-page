@@ -1,0 +1,26 @@
+.ud-contact-form #email {
+    padding-left: 5px;
+}
+
+.ud-contact-form #email.error {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.ud-contact-form #email.error + .errorMsg {
+    display: block;
+}
+
+.ud-contact-form .errorMsg {
+    display: none;
+    color: red;
+}
+
+.ud-main-btn[aria-disabled="true"] {
+    background-color: gray;
+}
+
+.ud-contact-form .successMsg {
+    margin-top: 10px;
+    color: green;
+}
