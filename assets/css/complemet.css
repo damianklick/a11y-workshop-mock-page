@@ -26,6 +26,26 @@
     color: green;
 }
 
+/* SKIP TO MAIN CONTENT */
+#skip {
+    display: block;
+    text-align: center;
+    transform: translateY(-100%);
+	transition: transform 0.3s;  
+    box-sizing: border-box;
+    position: absolute;
+}
+#skip:focus {
+    position: static;
+    transform: translateY(0%);
+    outline-offset: -6px;
+}
+
+/* NAVBAR */
+.navbar.navbar-expand-xlg {
+    padding-top: 25px;
+}
+
 /* BUTTONS */
 
 button > * {
@@ -35,7 +55,7 @@ button > * {
 /* FOCUS */
 
 *:focus {
-    outline: 2px solid indigo !important;
+    outline: 4px dotted grey !important;
 }
 
 [tabindex="-1"] {
