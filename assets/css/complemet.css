@@ -1,3 +1,8 @@
+/* GLOBAL */
+p {
+    color: lightgrey;
+}
+
 /* FORM */
 .ud-contact-form #email {
     padding-left: 5px;
@@ -6,39 +11,6 @@
 .ud-contact-form #email.error {
     border: 2px solid red;
     border-radius: 8px;
-}
-
-.ud-contact-form #email.error + .errorMsg {
-    display: block;
-}
-
-.ud-contact-form .errorMsg {
-    display: none;
-    color: red;
-}
-
-.ud-main-btn[aria-disabled="true"] {
-    background-color: gray;
-}
-
-.ud-contact-form .successMsg {
-    margin-top: 10px;
-    color: green;
-}
-
-/* SKIP TO MAIN CONTENT */
-#skip {
-    display: block;
-    text-align: center;
-    transform: translateY(-100%);
-	transition: transform 0.3s;  
-    box-sizing: border-box;
-    position: absolute;
-}
-#skip:focus {
-    position: static;
-    transform: translateY(0%);
-    outline-offset: -6px;
 }
 
 /* NAVBAR */
@@ -50,24 +22,4 @@
 
 button > * {
     pointer-events: none;
-}
-
-/* FOCUS */
-
-*:focus {
-    outline: 4px dotted grey !important;
-}
-
-[tabindex="-1"] {
-    pointer-events: none;
-}
-
-/* SR COPY */
-.sr-only{
-    position:absolute !important;
-    clip:rect(1px, 1px, 1px, 1px);
-    padding:0 !important;border:0 !important;
-    height:1px !important;
-    width:1px !important;
-    overflow:hidden
 }
