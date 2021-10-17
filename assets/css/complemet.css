@@ -1,0 +1,25 @@
+/* GLOBAL */
+p {
+    color: lightgrey;
+}
+
+/* FORM */
+.ud-contact-form #email {
+    padding-left: 5px;
+}
+
+.ud-contact-form #email.error {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+/* NAVBAR */
+.navbar.navbar-expand-xlg {
+    padding-top: 25px;
+}
+
+/* BUTTONS */
+
+button > * {
+    pointer-events: none;
+}
