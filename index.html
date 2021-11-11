@@ -9,7 +9,7 @@
 ========== -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -45,6 +45,29 @@
   <link rel="stylesheet" href="assets/css/complemet.css" />
   <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
 
+  <style>
+      ul.ud-widget-links li a:hover,
+      .ud-footer-bottom .ud-footer-bottom-left a:hover {
+        color: #f2f2f2 !important;
+        text-decoration: underline;
+    }
+      .ud-feature-desc, 
+      .ud-section-title p,
+      .ud-contact-info-wrapper p {
+          color: #000;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -57,11 +80,11 @@
               <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo/logo.svg" alt="logo" />
               </a>
-              <a class="navbar-toggler">
+              <button class="navbar-toggler" aria-haspopup="true" aria-controls="navDiv" aria-expanded="false" aria-label="main navigation">
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
-              </a>
+              </button>
 
               <div id="navDiv" class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
@@ -99,7 +122,7 @@
               <h2 class="ud-hero-title">
                 Open-Source Web Template for SaaS, Startup, Apps, and More
               </h2>
-              <p class="ud-hero-desc">
+              <p style="opacity: 1;" class="ud-hero-desc">
                 Multidisciplinary Web Template Built with Your Favourite
                 Technology - HTML Bootstrap, Tailwind and React NextJS.
               </p>
@@ -119,12 +142,12 @@
               </ul>
             </div>
             <div class="ud-hero-brands-wrapper wow fadeInUp" data-wow-delay=".3s">
-              <img src="assets/images/hero/brand.svg" />
+              <img src="assets/images/hero/brand.svg" alt="" />
             </div>
             <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero/hero-image.svg" alt="shape" />
-              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
+              <img src="assets/images/hero/hero-image.svg" alt="picture of dashboard in admin panel" />
+              <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-1" />
+              <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-2" />
             </div>
           </div>
         </div>
@@ -140,7 +163,7 @@
             <div class="ud-section-title">
               <span>Features</span>
               <h2>Main Features of Play</h2>
-              <p>
+              <p style="color: #000;">
                 There are many variations of passages of Lorem Ipsum available
                 but the majority have suffered alteration in some form.
               </p>
@@ -171,7 +194,7 @@
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Multipurpose Template</h3>
-                <p class="ud-feature-desc">
+                <p style="color: #000;" class="ud-feature-desc">
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a href="javascript:void(0)" class="ud-feature-link">
@@ -187,7 +210,7 @@
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">High-quality Design</h3>
-                <p class="ud-feature-desc">
+                <p style="color: #000;" class="ud-feature-desc">
                   Lorem Ipsum is simply dummy text of the printing and industry.
                 </p>
                 <a href="javascript:void(0)" class="ud-feature-link">
@@ -465,7 +488,7 @@
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="ud-widget">
               <a href="index.html" class="ud-footer-logo">
-                <img src="assets/images/logo/logo.svg" alt="" />
+                <img src="assets/images/logo/logo.svg" alt="Play logo" />
               </a>
               <p class="ud-widget-desc">
                 We create digital experiences for brands and companies by
@@ -560,32 +583,32 @@
               <ul class="ud-widget-brands">
                 <li>
                   <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/ayroui.svg" alt="ayroui" />
+                    <img src="assets/images/footer/brands/ayroui.svg" alt="ayroui logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/ecommerce-html.svg" alt="ecommerce-html" />
+                    <img src="assets/images/footer/brands/ecommerce-html.svg" alt="ecommerce-html logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://graygrids.com/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/graygrids.svg" alt="graygrids" />
+                    <img src="assets/images/footer/brands/graygrids.svg" alt="graygrids logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/lineicons.svg" alt="lineicons" />
+                    <img src="assets/images/footer/brands/lineicons.svg" alt="lineicons logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://uideck.com/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/uideck.svg" alt="uideck" />
+                    <img src="assets/images/footer/brands/uideck.svg" alt="uideck logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://tailwindtemplates.co/" rel="nofollow noopner" target="_blank">
-                    <img src="assets/images/footer/brands/tailwindtemplates.svg" alt="tailwindtemplates" />
+                    <img src="assets/images/footer/brands/tailwindtemplates.svg" alt="tailwindtemplates logo" />
                   </a>
                 </li>
               </ul>
@@ -613,7 +636,7 @@
           <div class="col-md-4">
             <p class="ud-footer-bottom-right">
               Designed and Developed by
-              <a href="https://uideck.com" rel="nofollow">UIdeck</a>
+              <a style="color: #fff; font-weight: 600;" href="https://uideck.com" rel="nofollow">UIdeck</a>
             </p>
           </div>
         </div>
@@ -625,6 +648,7 @@
   <!-- ====== Back To Top Start ====== -->
   <a href="javascript:void(0)" class="back-to-top">
     <i class="lni lni-chevron-up"> </i>
+    <span class="sr-only">back to top</span>
   </a>
   <!-- ====== Back To Top End ====== -->
 
