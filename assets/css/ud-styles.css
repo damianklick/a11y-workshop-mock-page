@@ -529,12 +529,15 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--white);
+  /* color: var(--white); */
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 30px;
+  background: -webkit-linear-gradient(#d1d1d1 5%, rgb(48, 86, 211) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
